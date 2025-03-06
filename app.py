@@ -8,8 +8,7 @@ from flask import Flask, request, jsonify, render_template
 import sqlite3
 import os
 
-# Step 1: Load and Prepare Data
-file_path = "/mnt/data/1-s2.0-S1535947625000179-mmc1.xlsx"  # Update as needed
+file_path = "data/1-s2.0-S1535947625000179-mmc1.xlsx"
 df = pd.read_excel(file_path)
 
 # Data Preprocessing (Modify according to dataset structure)
